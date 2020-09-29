@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  color: blue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.site-layout-content {
+  background: rgb(168, 161, 161);
+  padding: 24px;
+  min-height: 280px;
+  margin: 16px 24px 16px 0;
+}
+
+.site-layout-content2 {
+  background: rgb(168, 161, 161);
+  padding: 24px;
+  min-height: 280px;
+  margin: 16px 24px 16px 0;
+}
+
+.site-layout-content3 {
+  background: rgb(168, 161, 161);
+  padding: 24px;
+  min-height: 280px;
+  margin: 16px 24px 16px 0;
+  float: right;
+}
+.site-layout-content4 {
+  background: rgb(168, 161, 161);
+  padding: 24px;
+  min-height: 516px;
+  margin: 16px 24px 16px 0;
+  width: 80%;
+  float: right;
+}
+
+.site-layout-content5 {
+  background: rgb(168, 161, 161);
+  padding: 24px;
+  min-height: 1px;
+  margin: 16px 24px 16px 0;
+  width: 1780px;
+  float: left;
+}
+
+.whatever6 {
+  background: rgb(255, 255, 255);
+  padding: 24px;
+  min-height: 1px;
+  margin: 16px 24px 16px 0;
+  width: 400px;
+  float: center;
+}
+
+
+.divmaster {  
+  display: flex;  
+  grid-template-columns: 100px 100px 100px;  
+  grid-template-rows: 50px 50px;  
+}
+
+#components-layout-demo-top .logo {
+  width: 90%;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkblue;
+  color: darkgray;
+  text-align: center;
+}
+
+
+.form {
+  width: 50%;
 }
