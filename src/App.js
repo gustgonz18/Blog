@@ -41,6 +41,7 @@ const validateMessages = {
   },
 };
 
+<<<<<<< HEAD
 const cards = [
   {
     titulo: "Red Sun Rising", 
@@ -78,6 +79,8 @@ const cards = [
   
 ]
 
+=======
+>>>>>>> 9ab81e10898b3106ec5b1e1a4aeafa7110aff927
 
 function App() {
   return (
@@ -137,6 +140,7 @@ function App() {
 
           <br></br>
           <Row gutter={[16, 16]}>
+<<<<<<< HEAD
             {cards.map(card =>{
               return (
                 <Col span={8}>  <Card
@@ -151,6 +155,17 @@ function App() {
               )})}
             
             {/*<Col span={8}> <Card
+=======
+            <Col span={8}>  <Card
+              hoverable
+              // style={{ width: 240 }}
+              cover={<img alt="example" src="https://images-na.ssl-images-amazon.com/images/I/81W69D9XWjL._SL1400_.jpg" />}
+            >
+              <Meta title="Red Sun Rising" description="Rock Alternativo, Hard Rock " />
+            </Card>
+            </Col>
+            <Col span={8}> <Card
+>>>>>>> 9ab81e10898b3106ec5b1e1a4aeafa7110aff927
               hoverable
               //style={{ width: 240 }}
               cover={<img alt="example" src="https://images.squarespace-cdn.com/content/v1/54749e9be4b035ef76f778db/1472392345838-9O733H3Z8M37358LCO0E/ke17ZwdGBToddI8pDm48kJUlZr2Ql5GtSKWrQpjur5t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfNdxJhjhuaNor070w_QAc94zjGLGXCa1tSmDVMXf8RUVhMJRmnnhuU1v2M8fLFyJw/image-asset.jpeg" />}
@@ -166,8 +181,13 @@ function App() {
               >
                 <Meta title="Powerwolf" description="Power Metal, Heavy Metal " />
               </Card>
+<<<<<<< HEAD
               </Col> */}
               </Row>
+=======
+            </Col>
+          </Row>
+>>>>>>> 9ab81e10898b3106ec5b1e1a4aeafa7110aff927
         </div>
         {/*<Layout>
       <Header></Header>
